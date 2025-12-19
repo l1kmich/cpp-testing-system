@@ -1,0 +1,15 @@
+struct S {
+    S() { std::cout <<  1; }
+    ~S() { std::cout <<  2; }
+};
+int main() {
+    { S s; }
+    return 0;
+}
+---
+1
+2
+12
+21
+===
+3

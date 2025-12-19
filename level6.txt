@@ -1,0 +1,19 @@
+#include <iostream>
+
+int main() {
+    bool a = true;
+    bool b = false;
+    if (a || b && false) {
+        std::cout << "Yes";
+    } else {
+        std::cout << "No";
+    }
+    return 0;
+}
+---
+Yes
+No
+Compilation error
+empty
+===
+1

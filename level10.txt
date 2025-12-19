@@ -1,0 +1,16 @@
+#include <iostream>
+
+int main() {
+    int nums[] = {10, 20, 30, 40};
+    int i = 0;
+    std::cout << nums[++i];
+    std::cout << nums[i++];
+    return 0;
+}
+---
+1020
+2020
+2030
+1010
+===
+2
